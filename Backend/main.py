@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse, HTMLResponse, Response
 from fastapi.staticfiles import StaticFiles
 from Backend.utils import listar_comandos, secciones, buscar_comando, ensure_temp_dir
-from bot_handler import enviar_comando
+from Backend.bot_handler import enviar_comando
 import os, json, datetime, logging
 from mimetypes import guess_type
 from utils import get_temp_path, ensure_temp_dir
