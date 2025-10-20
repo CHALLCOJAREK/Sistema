@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos / secretos
+.env
+*.env
+config.env
+SistemaV2/
+venv/
+env/
+
+# Logs y temporales
+logs/
+Data/temp_files/
+Backend/temp_files/
+Backend/sessions/
+*.log
+
+# Sistema / locales
+.DS_Store
+Thumbs.db
+ngrok.exe
+ngrok_log.txt
+*.bat
