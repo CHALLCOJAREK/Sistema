@@ -7,11 +7,11 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse, HTMLResponse, Response
 from fastapi.staticfiles import StaticFiles
-from Backend.utils import listar_comandos, secciones, buscar_comando, ensure_temp_dir
+from Backend.utils import listar_comandos, secciones, buscar_comando, ensure_temp_dir, get_temp_path
 from Backend.bot_handler import enviar_comando
 import os, json, datetime, logging
 from mimetypes import guess_type
-from utils import get_temp_path, ensure_temp_dir
+
 
 # ============================================================
 # ⚙️ CONFIGURACIÓN BASE
