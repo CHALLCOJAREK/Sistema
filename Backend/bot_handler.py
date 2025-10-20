@@ -9,7 +9,7 @@ import datetime
 import json
 from telethon import TelegramClient, errors
 from dotenv import load_dotenv
-from utils import get_temp_path, ensure_temp_dir, log
+from Backend.utils import get_temp_path, ensure_temp_dir, log
 
 # ============================================================
 # ⚙️ CARGAR CONFIGURACIÓN
